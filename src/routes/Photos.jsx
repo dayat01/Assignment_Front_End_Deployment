@@ -32,7 +32,7 @@ const Photos = () => {
       setLoading(false);
     }
     fetchData();
-  }, [sort, submited]); 
+  }, [sort, submited, search]); 
 
   useEffect(() => {
     async function fetchData() {

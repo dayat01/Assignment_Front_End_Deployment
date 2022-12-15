@@ -28,6 +28,7 @@ const AddPhoto = () => {
       });
       navigate("/photos");
     } catch (error) {
+      setError(error);
     }
   };
 
